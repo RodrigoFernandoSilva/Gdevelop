@@ -1,0 +1,3070 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project firstLayout="">
+    <gdVersion build="94" major="4" minor="0" revision="0" />
+    <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="com.example.gamename" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
+        <name>Project</name>
+        <author></author>
+        <windowWidth>608</windowWidth>
+        <windowHeight>832</windowHeight>
+        <latestCompilationDirectory>C:\Users\homework\Project</latestCompilationDirectory>
+        <maxFPS>60</maxFPS>
+        <minFPS>10</minFPS>
+        <verticalSync>false</verticalSync>
+        <extensions>
+            <extension name="BuiltinObject" />
+            <extension name="BuiltinAudio" />
+            <extension name="BuiltinVariables" />
+            <extension name="BuiltinTime" />
+            <extension name="BuiltinMouse" />
+            <extension name="BuiltinKeyboard" />
+            <extension name="BuiltinJoystick" />
+            <extension name="BuiltinCamera" />
+            <extension name="BuiltinWindow" />
+            <extension name="BuiltinFile" />
+            <extension name="BuiltinNetwork" />
+            <extension name="BuiltinScene" />
+            <extension name="BuiltinAdvanced" />
+            <extension name="Sprite" />
+            <extension name="BuiltinCommonInstructions" />
+            <extension name="BuiltinCommonConversions" />
+            <extension name="BuiltinStringInstructions" />
+            <extension name="BuiltinMathematicalTools" />
+            <extension name="BuiltinExternalLayouts" />
+            <extension name="TiledSpriteObject" />
+            <extension name="PlatformBehavior" />
+            <extension name="TextObject" />
+            <extension name="TopDownMovementBehavior" />
+            <extension name="PhysicsBehavior" />
+        </extensions>
+        <platforms>
+            <platform name="GDevelop JS platform" />
+        </platforms>
+        <currentPlatform>GDevelop JS platform</currentPlatform>
+    </properties>
+    <resources>
+        <resources>
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/1.0 NPC/Animations/1.0 Walking/Armature-1.0 Walking_0.png" kind="image" name="Armature-1.0 Walking_0.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/1.0 NPC/Animations/1.0 Walking/Armature-1.0 Walking_1.png" kind="image" name="Armature-1.0 Walking_1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/1.0 NPC/Animations/1.0 Walking/Armature-1.0 Walking_2.png" kind="image" name="Armature-1.0 Walking_2.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/1.0 NPC/Animations/1.0 Walking/Armature-1.0 Walking_3.png" kind="image" name="Armature-1.0 Walking_3.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/1.0 NPC/Animations/1.0 Walking/Armature-1.0 Walking_4.png" kind="image" name="Armature-1.0 Walking_4.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/1.0 NPC/Animations/1.0 Walking/Armature-1.0 Walking_5.png" kind="image" name="Armature-1.0 Walking_5.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/1.0 NPC/Animations/1.0 Walking/Armature-1.0 Walking_6.png" kind="image" name="Armature-1.0 Walking_6.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_0.png" kind="image" name="Armature-animtion0_0.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_1.png" kind="image" name="Armature-animtion0_1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_2.png" kind="image" name="Armature-animtion0_2.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_3.png" kind="image" name="Armature-animtion0_3.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_4.png" kind="image" name="Armature-animtion0_4.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_5.png" kind="image" name="Armature-animtion0_5.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_6.png" kind="image" name="Armature-animtion0_6.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/2.0 Enemy/Animation/1.0 Walking/Armature-animtion0_7.png" kind="image" name="Armature-animtion0_7.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/Player.png" kind="image" name="Player.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/Ball1.png" kind="image" name="Ball1.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/SetaLeft.png" kind="image" name="SetaLeft.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/SetaRigh.png" kind="image" name="SetaRigh.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/Button.png" kind="image" name="Button.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/BackGround.png" kind="image" name="BackGround.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/Wall.png" kind="image" name="Wall.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/Seta_Left.png" kind="image" name="Seta_Left.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/Seta_Right.png" kind="image" name="Seta_Right.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/BackGround_ButtonBlack.png" kind="image" name="BackGround_ButtonBlack.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/1.0 Inkscape/BackGround_Up.png" kind="image" name="BackGround_Up.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_0.png" kind="image" name="Armature-Enemy1_0.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_1.png" kind="image" name="Armature-Enemy1_1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_2.png" kind="image" name="Armature-Enemy1_2.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_3.png" kind="image" name="Armature-Enemy1_3.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_4.png" kind="image" name="Armature-Enemy1_4.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_5.png" kind="image" name="Armature-Enemy1_5.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_6.png" kind="image" name="Armature-Enemy1_6.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/3.0 Enemy/Animation/1.0 Walking/Armature-Enemy1_7.png" kind="image" name="Armature-Enemy1_7.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_0.png" kind="image" name="Armature-Enemy2_0.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_1.png" kind="image" name="Armature-Enemy2_1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_2.png" kind="image" name="Armature-Enemy2_2.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_3.png" kind="image" name="Armature-Enemy2_3.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_4.png" kind="image" name="Armature-Enemy2_4.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_5.png" kind="image" name="Armature-Enemy2_5.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_6.png" kind="image" name="Armature-Enemy2_6.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../1.0 assets/8.0 AllSprites/2.0 DragonBones/4.0 Enemy/Animation/1.0 Walking/Armature-Enemy2_7.png" kind="image" name="Armature-Enemy2_7.png" smoothed="true" userAdded="false" />
+        </resources>
+        <resourceFolders />
+    </resources>
+    <objects />
+    <objectsGroups />
+    <variables>
+        <variable name="Score" value="0" />
+        <variable name="BallWasThrow" value="0" />
+    </variables>
+    <layouts>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Fase1" name="Fase1" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.459662" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="Player" locked="false" name="Player_Sprite" width="0.000000" x="264.000000" y="562.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="Player" locked="false" name="NPC_Sprite" width="0.000000" x="256.786804" y="688.802490" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="832.000000" layer="" locked="false" name="Walkk" width="64.000000" x="608.000000" y="0.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Seta_Left" width="0.000000" x="601.000000" y="608.000000" zOrder="4">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Seta_Right" width="0.000000" x="-57.000000" y="608.000000" zOrder="5">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="Player" locked="false" name="Ball_Sprite" width="0.000000" x="288.000000" y="534.000000" zOrder="0">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="832.000000" layer="" locked="false" name="Walkk" width="64.000000" x="-64.000000" y="0.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="128.000000" layer="" locked="false" name="NewObject" width="288.000000" x="0.000000" y="0.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="96.000000" layer="" locked="false" name="Button_Left" width="108.646706" x="288.000000" y="704.000000" zOrder="31">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="96.000000" layer="HUD" locked="false" name="Button_Right" width="108.646706" x="448.000000" y="704.000000" zOrder="32">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="96.000000" layer="HUD" locked="false" name="Button_Fire" width="96.000000" x="46.000000" y="704.000000" zOrder="33">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="Enemys" locked="false" name="Enemy_Sprite" width="0.000000" x="299.266907" y="933.032166" zOrder="34">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="832.000000" layer="BC" locked="false" name="BackGround" width="608.000000" x="-0.275925" y="0.000000" zOrder="0">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="160.000000" layer="HUD" locked="false" name="ButtonClick_Right" width="192.000000" x="432.000000" y="672.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="160.000000" layer="HUD" locked="false" name="ButtonClick_Left" width="192.000000" x="239.000000" y="672.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="160.000000" layer="HUD" locked="false" name="ButtonClick_Fire" width="192.000000" x="0.000000" y="672.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="389.391876" layer="HUD" locked="false" name="BackGround_Button" width="608.000000" x="0.000000" y="444.181274" zOrder="0">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="218.000000" layer="HUD" locked="false" name="BackGround_Up" width="608.000000" x="0.000000" y="0.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="BC" locked="false" name="Enemy1_Sprite" width="0.000000" x="31.489645" y="934.223022" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="BC" locked="false" name="Enemy2_Sprite" width="0.000000" x="528.517456" y="940.955078" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object name="Player_Sprite" type="Sprite">
+                    <variables />
+                    <behaviors>
+                        <behavior acceleration="3000.000000" canGrabPlatforms="false" deceleration="3000.000000" gravity="0.000000" ignoreDefaultControls="true" jumpSpeed="0.000000" maxFallingSpeed="0.000000" maxSpeed="200.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Player.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="38.000000" y="16.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="76.000000" y="0.000000" />
+                                                    <vertice x="76.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object height="64.000000" name="Walkk" texture="Wall.png" type="TiledSpriteObject::TiledSprite" width="64.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="true" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object name="NPC_Sprite" type="Sprite">
+                    <variables>
+                        <variable name="Direction_Move" value="1" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="1500.000000" canGrabPlatforms="false" deceleration="1500.000000" gravity="0.000000" ignoreDefaultControls="true" jumpSpeed="0.000000" maxFallingSpeed="0.000000" maxSpeed="50.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
+                    </behaviors>
+                    <animations>
+                        <animation name="Walk" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.100000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-1.0 Walking_0.png">
+                                            <points />
+                                            <originPoint name="origine" x="32.000000" y="77.000000" />
+                                            <centerPoint automatic="true" name="centre" x="33.000000" y="39.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="78.000000" />
+                                                    <vertice x="0.000000" y="78.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-1.0 Walking_1.png">
+                                            <points />
+                                            <originPoint name="origine" x="32.000000" y="77.000000" />
+                                            <centerPoint automatic="true" name="centre" x="33.000000" y="39.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="78.000000" />
+                                                    <vertice x="0.000000" y="78.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-1.0 Walking_2.png">
+                                            <points />
+                                            <originPoint name="origine" x="32.000000" y="77.000000" />
+                                            <centerPoint automatic="true" name="centre" x="33.000000" y="39.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="78.000000" />
+                                                    <vertice x="0.000000" y="78.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-1.0 Walking_3.png">
+                                            <points />
+                                            <originPoint name="origine" x="32.000000" y="77.000000" />
+                                            <centerPoint automatic="true" name="centre" x="33.000000" y="39.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="78.000000" />
+                                                    <vertice x="0.000000" y="78.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-1.0 Walking_4.png">
+                                            <points />
+                                            <originPoint name="origine" x="32.000000" y="77.000000" />
+                                            <centerPoint automatic="true" name="centre" x="33.000000" y="39.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="78.000000" />
+                                                    <vertice x="0.000000" y="78.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-1.0 Walking_5.png">
+                                            <points />
+                                            <originPoint name="origine" x="32.000000" y="77.000000" />
+                                            <centerPoint automatic="true" name="centre" x="33.000000" y="39.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="78.000000" />
+                                                    <vertice x="0.000000" y="78.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-1.0 Walking_6.png">
+                                            <points />
+                                            <originPoint name="origine" x="32.000000" y="77.000000" />
+                                            <centerPoint automatic="true" name="centre" x="33.000000" y="39.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="0.000000" />
+                                                    <vertice x="66.000000" y="78.000000" />
+                                                    <vertice x="0.000000" y="78.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Seta_Left" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Seta_Left.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="31.000000" y="32.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="62.000000" y="0.000000" />
+                                                    <vertice x="62.000000" y="64.000000" />
+                                                    <vertice x="0.000000" y="64.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Seta_Right" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Seta_Right.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="31.000000" y="32.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="62.000000" y="0.000000" />
+                                                    <vertice x="62.000000" y="64.000000" />
+                                                    <vertice x="0.000000" y="64.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Enemy_Sprite" type="Sprite">
+                    <variables>
+                        <variable name="Life" value="10" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="3000.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="180.000000" deceleration="3000.000000" ignoreDefaultControls="true" maxSpeed="60.000000" name="TopDownMovement" rotateObject="false" type="TopDownMovementBehavior::TopDownMovementBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="Walk" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.120000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_0.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_1.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_2.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_3.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_4.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_5.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_6.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-animtion0_7.png">
+                                            <points />
+                                            <originPoint name="origine" x="33.000000" y="71.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.500000" y="36.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="0.000000" />
+                                                    <vertice x="69.000000" y="73.000000" />
+                                                    <vertice x="0.000000" y="73.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Ball_Sprite" type="Sprite">
+                    <variables>
+                        <variable name="DirectionJump" value="0" />
+                        <variable name="LastPositionY" value="0" />
+                        <variable name="AjustarYnoPlayer" value="0" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="9000.000000" canGrabPlatforms="false" deceleration="9000.000000" gravity="0.000000" ignoreDefaultControls="true" jumpSpeed="0.000000" maxFallingSpeed="0.000000" maxSpeed="250.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Ball1.png2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object bold="true" italic="false" name="NewObject" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>Score: 00000</string>
+                    <font></font>
+                    <characterSize>48</characterSize>
+                    <color b="92" g="39" r="75" />
+                </object>
+                <object name="Button_Left" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="SetaLeft.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="92.500000" y="81.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="185.000000" y="0.000000" />
+                                                    <vertice x="185.000000" y="163.000000" />
+                                                    <vertice x="0.000000" y="163.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Button_Right" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="SetaRigh.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="92.500000" y="81.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="185.000000" y="0.000000" />
+                                                    <vertice x="185.000000" y="163.000000" />
+                                                    <vertice x="0.000000" y="163.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Button_Fire" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Button.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="40.500000" y="40.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="81.000000" y="0.000000" />
+                                                    <vertice x="81.000000" y="81.000000" />
+                                                    <vertice x="0.000000" y="81.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="BackGround" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="BackGround.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="279.500000" y="365.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="559.000000" y="0.000000" />
+                                                    <vertice x="559.000000" y="731.000000" />
+                                                    <vertice x="0.000000" y="731.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="BackGround_Button" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="BackGround_ButtonBlack.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="274.000000" y="173.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="548.000000" y="0.000000" />
+                                                    <vertice x="548.000000" y="347.000000" />
+                                                    <vertice x="0.000000" y="347.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="ButtonClick_Right" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Wall.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="32.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="64.000000" />
+                                                    <vertice x="0.000000" y="64.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="ButtonClick_Left" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Wall.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="32.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="64.000000" />
+                                                    <vertice x="0.000000" y="64.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="ButtonClick_Fire" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Wall.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="32.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="64.000000" />
+                                                    <vertice x="0.000000" y="64.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="BackGround_Up" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="BackGround_Up.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="269.000000" y="109.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="538.000000" y="0.000000" />
+                                                    <vertice x="538.000000" y="218.000000" />
+                                                    <vertice x="0.000000" y="218.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Enemy1_Sprite" type="Sprite">
+                    <variables>
+                        <variable name="Life" value="10" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="3000.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="180.000000" deceleration="3000.000000" ignoreDefaultControls="true" maxSpeed="100.000000" name="TopDownMovement" rotateObject="false" type="TopDownMovementBehavior::TopDownMovementBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="Walk" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.080000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_0.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_1.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_2.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_3.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_4.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_5.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_6.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy1_7.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="74.000000" />
+                                            <centerPoint automatic="true" name="centre" x="34.000000" y="37.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="0.000000" />
+                                                    <vertice x="68.000000" y="75.000000" />
+                                                    <vertice x="0.000000" y="75.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Enemy2_Sprite" type="Sprite">
+                    <variables>
+                        <variable name="Life" value="10" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="3000.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="180.000000" deceleration="3000.000000" ignoreDefaultControls="true" maxSpeed="30.000000" name="TopDownMovement" rotateObject="false" type="TopDownMovementBehavior::TopDownMovementBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="Walk" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.140000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_0.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_1.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_2.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_3.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_4.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_5.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_6.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="Armature-Enemy2_7.png">
+                                            <points />
+                                            <originPoint name="origine" x="42.000000" y="101.000000" />
+                                            <centerPoint automatic="true" name="centre" x="43.000000" y="50.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="0.000000" />
+                                                    <vertice x="86.000000" y="101.000000" />
+                                                    <vertice x="0.000000" y="101.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+            </objects>
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="DepartScene" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>Seta_Left</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>Seta_Right</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>ButtonClick_Right</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>ButtonClick_Left</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>ButtonClick_Fire</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Opacity" />
+                            <parameters>
+                                <parameter>Button_Fire</parameter>
+                                <parameter>=</parameter>
+                                <parameter>80</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Opacity" />
+                            <parameters>
+                                <parameter>Button_Left</parameter>
+                                <parameter>=</parameter>
+                                <parameter>80</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Opacity" />
+                            <parameters>
+                                <parameter>Button_Right</parameter>
+                                <parameter>=</parameter>
+                                <parameter>80</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Link</type>
+                    <include includeConfig="0" />
+                    <target>Player_Script</target>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Link</type>
+                    <include includeConfig="0" />
+                    <target>NPC_Script</target>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Link</type>
+                    <include includeConfig="0" />
+                    <target>Ball_Script</target>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Link</type>
+                    <include includeConfig="0" />
+                    <target>Enemy_Script</target>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>Spaw enemys.</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Random(600)</parameter>
+                                <parameter>&quot;SpawEnemys&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Create" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Enemy_Sprite</parameter>
+                                <parameter>Random(528) + 40</parameter>
+                                <parameter>-15</parameter>
+                                <parameter>&quot;Enemys&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;SpawEnemys&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Random(600)</parameter>
+                                <parameter>&quot;SpawEnemys1&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Create" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Enemy1_Sprite</parameter>
+                                <parameter>Random(528) + 40</parameter>
+                                <parameter>-15</parameter>
+                                <parameter>&quot;Enemys&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;SpawEnemys1&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Random(500)</parameter>
+                                <parameter>&quot;SpawEnemys2&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Create" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Enemy2_Sprite</parameter>
+                                <parameter>Random(470) + 20</parameter>
+                                <parameter>-35</parameter>
+                                <parameter>&quot;Enemys&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;SpawEnemys2&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Toujours" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>NewObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;Score: &quot; + LargeNumberToString(GlobalVariable(Score))</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+            <layers>
+                <layer name="BC" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="Player" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="Enemys" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="HUD" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData>
+                <behaviorSharedData name="Platform" type="PlatformBehavior::PlatformBehavior" />
+                <behaviorSharedData name="PlatformerObject" type="PlatformBehavior::PlatformerObjectBehavior" />
+                <behaviorSharedData name="TopDownMovement" type="TopDownMovementBehavior::TopDownMovementBehavior" />
+            </behaviorsSharedData>
+        </layout>
+    </layouts>
+    <externalEvents>
+        <externalEvents associatedLayout="Fase1" lastChangeTimeStamp="0" name="Player_Script">
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="DepartScene" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="TouchSimulateMouse" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>no</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="KeyBoard Moving" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="KeyPressed" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                    <parameters>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="KeyPressed" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Right</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateRightKey" />
+                                    <parameters>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="Touch Moving" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisSurObjet" />
+                                    <parameters>
+                                        <parameter>ButtonClick_Left</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                    <parameters>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisSurObjet" />
+                                    <parameters>
+                                        <parameter>ButtonClick_Right</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateRightKey" />
+                                    <parameters>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+            </events>
+        </externalEvents>
+        <externalEvents associatedLayout="Fase1" lastChangeTimeStamp="0" name="NPC_Script">
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>NPC Moving, left and right. it mirror the NPC too.</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Animation" />
+                            <parameters>
+                                <parameter>NPC_Sprite</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="Sprite" />
+                            <parameters>
+                                <parameter>NPC_Sprite</parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter>Direction_Move</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateRightKey" />
+                                    <parameters>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="FlipX" />
+                                    <parameters>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter>no</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter>Direction_Move</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>-1</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                    <parameters>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="FlipX" />
+                                    <parameters>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter>yes</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>Change the NPC moving direction, if it collision with the sprite that change the direction moving ro left or right.</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Collision" />
+                            <parameters>
+                                <parameter>NPC_Sprite</parameter>
+                                <parameter>Seta_Left</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>NPC_Sprite</parameter>
+                                <parameter>Direction_Move</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Collision" />
+                            <parameters>
+                                <parameter>NPC_Sprite</parameter>
+                                <parameter>Seta_Right</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>NPC_Sprite</parameter>
+                                <parameter>Direction_Move</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+        </externalEvents>
+        <externalEvents associatedLayout="Fase1" lastChangeTimeStamp="0" name="Ball_Script">
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>Load the player Attributes to the ball.</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="DepartScene" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::Acceleration" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Player_Sprite.PlatformerObject::Acceleration()</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::Deceleration" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Player_Sprite.PlatformerObject::Deceleration()</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Player_Sprite.PlatformerObject::MaxSpeed()</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Player_Sprite.X() + 24</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TouchSimulateMouse" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>no</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>LastPositionY</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Ball_Sprite.Y() + 1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>Whem player press space the boll will be throw and move up or down</comment>
+                    <comment2></comment2>
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="false" name="KeyBoard Fire" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="KeyPressed" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Space</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="MettreY" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>3</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>AjustarYnoPlayer</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>BallWasThrow</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="false" name="Touch Fire" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisSurObjet" />
+                                    <parameters>
+                                        <parameter>ButtonClick_Fire</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="MettreY" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>3</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>AjustarYnoPlayer</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>BallWasThrow</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>+</parameter>
+                                <parameter>-10</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>+</parameter>
+                                <parameter>10</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>If the ball colision with the enemy, it have to down.</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>Enemy_Sprite</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>Enemy1_Sprite</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>Enemy2_Sprite</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>If the ball colision with the player, it have to stop moving.</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>Player_Sprite</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>BallWasThrow</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Ball_Sprite.Variable(LastPositionY)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>As condições a seguir servem para ajustar a bolinha em cima certinho do player, porque conforme ela dece,ela entra na plataforma, então a bolnha precisa ser subisa, e se pegar muito na berada ela precisa ser decida, pq ela acaba ficando suspensa devido ao fato da sua posição em &apos;y&apos; ser alterada para um numero fixo, SAT...</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="true" value="CollisionNP" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>Player_Sprite</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>+</parameter>
+                                <parameter>0.5</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>Player_Sprite</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>+</parameter>
+                                <parameter>-0.5</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="KeyBoard moving" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="KeyPressed" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="PlatformBehavior::IsMoving" />
+                                    <parameters>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="KeyPressed" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Right</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="PlatformBehavior::IsMoving" />
+                                    <parameters>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateRightKey" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="Toutch moving" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisSurObjet" />
+                                    <parameters>
+                                        <parameter>ButtonClick_Left</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisSurObjet" />
+                                    <parameters>
+                                        <parameter>ButtonClick_Right</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>DirectionJump</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateRightKey" />
+                                    <parameters>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="PosY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>862</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Ball_Sprite.Variable(LastPositionY)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Player_Sprite.X() + 24</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>AjustarYnoPlayer</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>Score</parameter>
+                                <parameter>-</parameter>
+                                <parameter>5</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>BallWasThrow</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="PosY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>-30</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Ball_Sprite.Variable(LastPositionY)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Player_Sprite.X() + 24</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>AjustarYnoPlayer</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Ball_Sprite</parameter>
+                                <parameter>DirectionJump</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>Score</parameter>
+                                <parameter>-</parameter>
+                                <parameter>5</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>BallWasThrow</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+        </externalEvents>
+        <externalEvents associatedLayout="Fase1" lastChangeTimeStamp="0" name="Enemy_Script">
+            <events>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="Enemy Blue" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="TopDownMovementBehavior::SimulateDownKey" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>TopDownMovement</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarGlobal" />
+                                    <parameters>
+                                        <parameter>BallWasThrow</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>10</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>&lt;=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>+</parameter>
+                                        <parameter>4</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>20</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>40</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PosY" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>862</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="Enemy1 Red" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="TopDownMovementBehavior::SimulateDownKey" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>TopDownMovement</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarGlobal" />
+                                    <parameters>
+                                        <parameter>BallWasThrow</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>10</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>&lt;=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>+</parameter>
+                                        <parameter>6</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>20</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>40</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PosY" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>862</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy1_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+                <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="Enemy2 Yellow" source="">
+                    <type>BuiltinCommonInstructions::Group</type>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="TopDownMovementBehavior::SimulateDownKey" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>TopDownMovement</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>Ball_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarGlobal" />
+                                    <parameters>
+                                        <parameter>BallWasThrow</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>10</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>Life</parameter>
+                                        <parameter>&lt;=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>+</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>Player_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>20</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>NPC_Sprite</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>Score</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>40</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PosY" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>862</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="Delete" />
+                                    <parameters>
+                                        <parameter>Enemy2_Sprite</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                    <parameters />
+                </event>
+            </events>
+        </externalEvents>
+    </externalEvents>
+    <externalLayouts />
+    <externalSourceFiles />
+</project>
