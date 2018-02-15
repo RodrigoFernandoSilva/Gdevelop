@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project firstLayout="">
+    <gdVersion build="94" major="4" minor="0" revision="0" />
+    <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="com.example.gamename" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
+        <name>Flappy Bird V0.1</name>
+        <author></author>
+        <windowWidth>400</windowWidth>
+        <windowHeight>600</windowHeight>
+        <latestCompilationDirectory>C:\4.0 MyProjects\LearnAll\1.0 Flappy Bird\2.0 Gdevelop\Export</latestCompilationDirectory>
+        <maxFPS>60</maxFPS>
+        <minFPS>10</minFPS>
+        <verticalSync>false</verticalSync>
+        <extensions>
+            <extension name="BuiltinObject" />
+            <extension name="BuiltinAudio" />
+            <extension name="BuiltinVariables" />
+            <extension name="BuiltinTime" />
+            <extension name="BuiltinMouse" />
+            <extension name="BuiltinKeyboard" />
+            <extension name="BuiltinJoystick" />
+            <extension name="BuiltinCamera" />
+            <extension name="BuiltinWindow" />
+            <extension name="BuiltinFile" />
+            <extension name="BuiltinNetwork" />
+            <extension name="BuiltinScene" />
+            <extension name="BuiltinAdvanced" />
+            <extension name="Sprite" />
+            <extension name="BuiltinCommonInstructions" />
+            <extension name="BuiltinCommonConversions" />
+            <extension name="BuiltinStringInstructions" />
+            <extension name="BuiltinMathematicalTools" />
+            <extension name="BuiltinExternalLayouts" />
+            <extension name="TiledSpriteObject" />
+            <extension name="PlatformBehavior" />
+            <extension name="TextObject" />
+            <extension name="SoundObject" />
+        </extensions>
+        <platforms>
+            <platform name="GDevelop C++ platform" />
+        </platforms>
+        <currentPlatform>GDevelop C++ platform</currentPlatform>
+    </properties>
+    <resources>
+        <resources>
+            <resource alwaysLoaded="false" file="../../Sprites/InkScape/Sol.png" kind="image" name="Sol.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/InkScape/CanoBaixo.png" kind="image" name="CanoBaixo.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/InkScape/CanoCima.png" kind="image" name="CanoCima.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/InkScape/Iniciar.png" kind="image" name="Iniciar.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/BackGround/Ceu.png" kind="image" name="Ceu.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/BackGround/Chao.png" kind="image" name="Chao.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/Bird/flying/frame-1.png" kind="image" name="frame-1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/Bird/flying/frame-2.png" kind="image" name="frame-2.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/Bird/flying/frame-3.png" kind="image" name="frame-3.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/Bird/flying/frame-4.png" kind="image" name="frame-4.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/Bird/got hit/frame-1.png" kind="image" name="frame-1.png2" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../Sprites/1.0 Baixados/Bird/got hit/frame-2.png" kind="image" name="frame-2.png2" smoothed="true" userAdded="false" />
+        </resources>
+        <resourceFolders />
+    </resources>
+    <objects />
+    <objectsGroups />
+    <variables>
+        <variable name="Dificuldade" value="200" />
+        <variable name="DistanciaDoCanos" value="130" />
+        <variable name="EstatoDoJogo" value="0" />
+        <variable name="Pontuacao" value="0" />
+    </variables>
+    <layouts>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Fase" name="Fase" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="true" gridB="255" gridG="180" gridHeight="10" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="10" snap="true" windowMask="false" zoomFactor="1.116963" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Sprite_Passaro" width="0.000000" x="40.000000" y="240.000000" zOrder="199">
+                    <numberProperties>
+                        <property name="animation" value="2.000000" />
+                    </numberProperties>
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="600.000000" layer="" locked="false" name="Ceu" width="400.000000" x="0.000000" y="0.000000" zOrder="0">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Sol" width="0.000000" x="310.000000" y="25.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="70.000000" layer="" locked="false" name="Chao" width="400.000000" x="0.000000" y="530.000000" zOrder="200">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="CanoBaixo" width="0.000000" x="-40.000000" y="460.000000" zOrder="101">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="CanoCima" width="0.000000" x="-50.000000" y="50.000000" zOrder="102">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Play" width="0.000000" x="160.000000" y="250.000000" zOrder="250">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="50.000000" layer="" locked="false" name="Pontuacao" width="110.000000" x="180.000000" y="30.000000" zOrder="300">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="40.000000" layer="" locked="false" name="PontuacaoBLACK" width="70.000000" x="160.000000" y="28.000000" zOrder="299">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Music" width="0.000000" x="20.000000" y="-40.000000" zOrder="301">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object name="Sprite_Passaro" type="Sprite">
+                    <variables>
+                        <variable name="UltimaPosicaoY" value="0" />
+                        <variable name="Touch" value="0" />
+                        <variable name="Press" value="0" />
+                        <variable name="VelocidadeCair" value="0" />
+                        <variable name="PosicaoInicialY" value="0" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="0.000000" canGrabPlatforms="false" deceleration="0.000000" gravity="820.000000" ignoreDefaultControls="true" jumpSpeed="450.000000" maxFallingSpeed="700.000000" maxSpeed="0.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
+                    </behaviors>
+                    <animations>
+                        <animation name="Jump" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.080000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="true" image="frame-1.png">
+                                            <points />
+                                            <originPoint name="origine" x="27.000000" y="21.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="21.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="9.000000" y="14.000000" />
+                                                    <vertice x="27.000000" y="4.000000" />
+                                                    <vertice x="47.000000" y="8.000000" />
+                                                    <vertice x="54.000000" y="26.000000" />
+                                                    <vertice x="37.000000" y="43.000000" />
+                                                    <vertice x="15.000000" y="35.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="true" image="frame-2.png">
+                                            <points />
+                                            <originPoint name="origine" x="27.000000" y="21.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="21.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="9.000000" y="14.000000" />
+                                                    <vertice x="27.000000" y="4.000000" />
+                                                    <vertice x="47.000000" y="8.000000" />
+                                                    <vertice x="54.000000" y="26.000000" />
+                                                    <vertice x="37.000000" y="43.000000" />
+                                                    <vertice x="15.000000" y="35.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="true" image="frame-3.png">
+                                            <points />
+                                            <originPoint name="origine" x="27.000000" y="21.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="21.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="9.000000" y="14.000000" />
+                                                    <vertice x="27.000000" y="4.000000" />
+                                                    <vertice x="47.000000" y="8.000000" />
+                                                    <vertice x="54.000000" y="26.000000" />
+                                                    <vertice x="37.000000" y="43.000000" />
+                                                    <vertice x="15.000000" y="35.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="true" image="frame-4.png">
+                                            <points />
+                                            <originPoint name="origine" x="27.000000" y="21.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="21.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="9.000000" y="14.000000" />
+                                                    <vertice x="27.000000" y="4.000000" />
+                                                    <vertice x="47.000000" y="8.000000" />
+                                                    <vertice x="54.000000" y="26.000000" />
+                                                    <vertice x="37.000000" y="43.000000" />
+                                                    <vertice x="15.000000" y="35.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                        <animation name="Dead" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.180000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="frame-1.png2">
+                                            <points />
+                                            <originPoint name="origine" x="29.000000" y="24.000000" />
+                                            <centerPoint automatic="true" name="centre" x="29.000000" y="24.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="58.000000" y="0.000000" />
+                                                    <vertice x="58.000000" y="49.000000" />
+                                                    <vertice x="0.000000" y="49.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="frame-2.png2">
+                                            <points />
+                                            <originPoint name="origine" x="29.000000" y="24.000000" />
+                                            <centerPoint automatic="true" name="centre" x="29.000000" y="24.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="58.000000" y="0.000000" />
+                                                    <vertice x="58.000000" y="49.000000" />
+                                                    <vertice x="0.000000" y="49.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                        <animation name="Stop" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="frame-1.png">
+                                            <points />
+                                            <originPoint name="origine" x="27.000000" y="21.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="21.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="43.000000" />
+                                                    <vertice x="0.000000" y="43.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Ceu" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Ceu.png2">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="200.000000" y="300.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="400.000000" y="0.000000" />
+                                                    <vertice x="400.000000" y="600.000000" />
+                                                    <vertice x="0.000000" y="600.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Sol" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Sol.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="31.000000" y="31.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="62.000000" y="0.000000" />
+                                                    <vertice x="62.000000" y="62.000000" />
+                                                    <vertice x="0.000000" y="62.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="CanoCima" type="Sprite">
+                    <variables>
+                        <variable name="JaFoiCriado" value="0" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="1500.000000" canGrabPlatforms="false" deceleration="1500.000000" gravity="0.000000" ignoreDefaultControls="true" jumpSpeed="0.000000" maxFallingSpeed="0.000000" maxSpeed="0.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="CanoCima.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="484.000000" />
+                                            <centerPoint automatic="true" name="centre" x="31.500000" y="242.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="63.000000" y="0.000000" />
+                                                    <vertice x="63.000000" y="484.000000" />
+                                                    <vertice x="0.000000" y="484.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="CanoBaixo" type="Sprite">
+                    <variables>
+                        <variable name="JaFoiCriado" value="0" />
+                    </variables>
+                    <behaviors>
+                        <behavior acceleration="1500.000000" canGrabPlatforms="false" deceleration="1500.000000" gravity="0.000000" ignoreDefaultControls="true" jumpSpeed="0.000000" maxFallingSpeed="0.000000" maxSpeed="0.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="CanoBaixo.png">
+                                            <points />
+                                            <originPoint name="origine" x="31.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="31.500000" y="242.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="63.000000" y="0.000000" />
+                                                    <vertice x="63.000000" y="484.000000" />
+                                                    <vertice x="0.000000" y="484.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Play" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Iniciar.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="40.500000" y="46.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="81.000000" y="0.000000" />
+                                                    <vertice x="81.000000" y="92.000000" />
+                                                    <vertice x="0.000000" y="92.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object height="108.000000" name="Chao" texture="Chao.png2" type="TiledSpriteObject::TiledSprite" width="400.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior acceleration="1500.000000" canGrabPlatforms="false" deceleration="1500.000000" gravity="0.000000" ignoreDefaultControls="true" jumpSpeed="0.000000" maxFallingSpeed="0.000000" maxSpeed="0.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object bold="false" italic="false" name="Pontuacao" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables>
+                        <variable name="NumeroDeDigitos" value="0" />
+                    </variables>
+                    <behaviors />
+                    <string>0</string>
+                    <font>../../Sprites/123_GO.ttf</font>
+                    <characterSize>39</characterSize>
+                    <color b="255" g="255" r="255" />
+                </object>
+                <object bold="false" italic="false" name="PontuacaoBLACK" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables>
+                        <variable name="NumeroDeDigitos" value="0" />
+                    </variables>
+                    <behaviors />
+                    <string>0</string>
+                    <font>../../Sprites/123_GO.ttf</font>
+                    <characterSize>39</characterSize>
+                    <color b="0" g="0" r="0" />
+                </object>
+                <object name="Music" type="SoundObject::Sound">
+                    <variables />
+                    <behaviors />
+                    <type>Music</type>
+                    <filename>../../Sounds/Music.ogg</filename>
+                    <loop>true</loop>
+                    <volume>100</volume>
+                    <pitch>1</pitch>
+                    <attenuation>1</attenuation>
+                    <minDistance>1</minDistance>
+                    <zPos>0</zPos>
+                </object>
+            </objects>
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Link</type>
+                    <include includeConfig="0" />
+                    <target>Script_Passaro</target>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="DepartScene" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="TiledSpriteObject::Width" />
+                            <parameters>
+                                <parameter>Chao</parameter>
+                                <parameter>=</parameter>
+                                <parameter>ScreenWidth() * 2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="SoundObject::Play" />
+                            <parameters>
+                                <parameter>Music</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="false" name="Cano" source="">
+                            <type>BuiltinCommonInstructions::Group</type>
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Toujours" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                            <parameters>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter>PlatformerObject</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                            <parameters>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter>PlatformerObject</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="PosX" />
+                                            <parameters>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter>&lt;</parameter>
+                                                <parameter>-32</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="Delete" />
+                                            <parameters>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="PosX" />
+                                            <parameters>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter>&lt;</parameter>
+                                                <parameter>-32</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="Delete" />
+                                            <parameters>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Timer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>1.5</parameter>
+                                                <parameter>&quot;CriarCano&quot;</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ResetTimer" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>&quot;CriarCano&quot;</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="Create" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter>544</parameter>
+                                                <parameter>Random(480 - GlobalVariable(DistanciaDoCanos) - 50) + GlobalVariable(DistanciaDoCanos) + 50</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="Create" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter>544</parameter>
+                                                <parameter>CanoBaixo.Y() - GlobalVariable(DistanciaDoCanos)</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarObjet" />
+                                            <parameters>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter>JaFoiCriado</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ChangePlan" />
+                                            <parameters>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>101</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="ModVarObjet" />
+                                            <parameters>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter>JaFoiCriado</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>1</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                                            <parameters>
+                                                <parameter>CanoCima</parameter>
+                                                <parameter>PlatformerObject</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariable(Dificuldade)</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarObjet" />
+                                            <parameters>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter>JaFoiCriado</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ChangePlan" />
+                                            <parameters>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>100</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="ModVarObjet" />
+                                            <parameters>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter>JaFoiCriado</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>1</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                                            <parameters>
+                                                <parameter>CanoBaixo</parameter>
+                                                <parameter>PlatformerObject</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>GlobalVariable(Dificuldade)</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
+                            <parameters />
+                        </event>
+                        <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="true" name="Chao" source="">
+                            <type>BuiltinCommonInstructions::Group</type>
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="Toujours" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="PlatformBehavior::SimulateLeftKey" />
+                                            <parameters>
+                                                <parameter>Chao</parameter>
+                                                <parameter>PlatformerObject</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="PosX" />
+                                            <parameters>
+                                                <parameter>Chao</parameter>
+                                                <parameter>&lt;=</parameter>
+                                                <parameter>-Chao.Width() / 2</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="MettreX" />
+                                            <parameters>
+                                                <parameter>Chao</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
+                            <parameters />
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="BuiltinCommonInstructions::Or" />
+                            <parameters />
+                            <subConditions>
+                                <condition>
+                                    <type inverted="false" value="SourisBouton" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="KeyPressed" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Space</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </subConditions>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxFallingSpeed" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Sprite_Passaro.Variable(VelocidadeCair)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeAnimation" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Sprite_Passaro.Variable(PosicaoInicialY)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="SetAngle" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::SimulateJumpKey" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>PlatformerObject</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::SetCanJump" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>PlatformerObject</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                            <parameters>
+                                <parameter>Chao</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>GlobalVariable(Dificuldade)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>Play</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;CriarCano&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Delete" />
+                            <parameters>
+                                <parameter>CanoCima</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Delete" />
+                            <parameters>
+                                <parameter>CanoBaixo</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>Pontuacao</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                            <parameters>
+                                <parameter>CanoCima</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>GlobalVariable(Dificuldade)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                            <parameters>
+                                <parameter>CanoBaixo</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>GlobalVariable(Dificuldade)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>Pontuacao</parameter>
+                                <parameter>=</parameter>
+                                <parameter>LargeNumberToString(GlobalVariable(Pontuacao))</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>PontuacaoBLACK</parameter>
+                                <parameter>=</parameter>
+                                <parameter>LargeNumberToString(GlobalVariable(Pontuacao))</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Pontuacao</parameter>
+                                <parameter>NumeroDeDigitos</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Pontuacao.Width()</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>Pontuacao</parameter>
+                                <parameter>=</parameter>
+                                <parameter>(SceneWindowWidth() / 2) - (Pontuacao.Width() / 2)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreX" />
+                            <parameters>
+                                <parameter>PontuacaoBLACK</parameter>
+                                <parameter>=</parameter>
+                                <parameter>(SceneWindowWidth() / 2) - (Pontuacao.Width() / 2)</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+            <layers>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData>
+                <behaviorSharedData name="PlatformerObject" type="PlatformBehavior::PlatformerObjectBehavior" />
+            </behaviorsSharedData>
+        </layout>
+    </layouts>
+    <externalEvents>
+        <externalEvents associatedLayout="Fase" lastChangeTimeStamp="1501641820" name="Script_Passaro">
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="DepartScene" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>VelocidadeCair</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Sprite_Passaro.PlatformerObject::MaxFallingSpeed()</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarObjet" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>PosicaoInicialY</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Sprite_Passaro.Y()</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxFallingSpeed" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeAnimation" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="KeyPressed" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Space</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>Press</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateJumpKey" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SetCanJump" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>Press</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PlaySound" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>..\..\Sounds\Jump.ogg</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="SourisBouton" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="VarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>Touch</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SimulateJumpKey" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PlatformBehavior::SetCanJump" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>Touch</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="PlaySound" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>..\..\Sounds\Jump.ogg</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="MouseButtonReleased" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>Touch</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="KeyReleased" />
+                                    <parameters>
+                                        <parameter></parameter>
+                                        <parameter>Space</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>Press</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PosY" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>Sprite_Passaro.Variable(UltimaPosicaoY)</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>UltimaPosicaoY</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>Sprite_Passaro.Y()</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="RotateTowardAngle" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>90</parameter>
+                                        <parameter>260</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PosY" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>Sprite_Passaro.Variable(UltimaPosicaoY)</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>UltimaPosicaoY</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>Sprite_Passaro.Y()</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="RotateTowardAngle" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>-30</parameter>
+                                        <parameter>520</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PosY" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>Sprite_Passaro.Variable(UltimaPosicaoY)</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>UltimaPosicaoY</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>Sprite_Passaro.Y()</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="RotateTowardAngle" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>90</parameter>
+                                        <parameter>260</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PosY" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>Sprite_Passaro.Variable(UltimaPosicaoY)</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarObjet" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>UltimaPosicaoY</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>Sprite_Passaro.Y()</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="RotateTowardAngle" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>-30</parameter>
+                                        <parameter>520</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Egal" />
+                            <parameters>
+                                <parameter>Sprite_Passaro.X()</parameter>
+                                <parameter>&gt;</parameter>
+                                <parameter>CanoBaixo.X()</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="true" value="PosX" />
+                            <parameters>
+                                <parameter>CanoBaixo</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="BuiltinCommonInstructions::Once" />
+                            <parameters />
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>Pontuacao</parameter>
+                                <parameter>+</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>..\..\Sounds\Point.ogg</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="BuiltinCommonInstructions::Or" />
+                            <parameters />
+                            <subConditions>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>Chao</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>CanoCima</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                                <condition>
+                                    <type inverted="false" value="CollisionNP" />
+                                    <parameters>
+                                        <parameter>Sprite_Passaro</parameter>
+                                        <parameter>CanoBaixo</parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </subConditions>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeAnimation" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlaySound" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>..\..\Sounds\Hit.wav</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>!=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>Chao</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>EstatoDoJogo</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>Play</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxFallingSpeed" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ChangeAnimation" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>Chao.Y() - 14</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                            <parameters>
+                                <parameter>Chao</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                            <parameters>
+                                <parameter>CanoCima</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PlatformBehavior::MaxSpeed" />
+                            <parameters>
+                                <parameter>CanoBaixo</parameter>
+                                <parameter>PlatformerObject</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="PosY" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>-32</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="MettreY" />
+                            <parameters>
+                                <parameter>Sprite_Passaro</parameter>
+                                <parameter>=</parameter>
+                                <parameter>-32</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+        </externalEvents>
+    </externalEvents>
+    <externalLayouts />
+    <externalSourceFiles />
+</project>
